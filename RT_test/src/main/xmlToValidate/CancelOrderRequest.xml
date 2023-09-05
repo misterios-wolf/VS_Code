@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:oms="http://oms.rt.ru/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <oms:cancelOrderRequest>
+      <originator>SOM.NW</originator>
+      <receiver>TELEMAN.NW</receiver>
+      <order>
+        <orderOMSId>5b9fc7cc-0a46-447c-ab18-84fe4f8cf818</orderOMSId>
+        <affiliate>01200</affiliate>
+        <orderReasonCode>0</orderReasonCode>
+        <orderReasonText>Запрос отменен</orderReasonText>
+      </order>
+    </oms:cancelOrderRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
